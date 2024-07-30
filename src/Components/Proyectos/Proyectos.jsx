@@ -1,24 +1,24 @@
-
+import * as Icon from 'react-bootstrap-icons'
 
 const Proyectos = () =>{
 
 
     return(
-        <section id="proyectos" class="proyectos">
+        <section id="proyectos" className="proyectos">
             <h2>Proyectos</h2>
             <p>En esta sección podrás encontrar los proyectos públicos que he desarrollado.</p>
-            <div class="botones">
+            <div className="botones">
                 <a href="">Todo</a>
                 <a href="">Landing page</a>
                 <a href="">Secciones</a>
                 <a href="">Python</a>
             </div>
-            <div class="proyec">
-                <a class="proyec-1" href="https://www.github.com/lautirobles/portfolio-personal" target="_blank"></a>
-                <a class="proyec-2" href=""></a>
-                <a class="proyec-3" href=""></a>
+            <div className="proyec">
+                <a className="proyec-1" href="https://www.github.com/lautirobles/portfolio-personal" target="_blank"></a>
+                <a className="proyec-2" href=""></a>
+                <a className="proyec-3" href=""></a>
             </div>
-            <a class="most-mas" href="">Mostrar Mas <i class="bi bi-arrow-right"></i></a>
+            <a className="most-mas" href="">Mostrar Mas <Icon.ArrowRight /></a>
         </section>
     )
 }

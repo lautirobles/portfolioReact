@@ -1,4 +1,4 @@
-
+import * as Icon from 'react-bootstrap-icons'
 
 const Footer = () =>{
 
@@ -7,9 +7,9 @@ const Footer = () =>{
             <div className="cont-logo">
                 <img className="logo" src="../../../public/logo2.png" alt="Logo"/>
                 <p>Aquí te dejo nuevamente mis redes para que puedas acceder y contactarme!</p>
-                <a href="https://www.instagram.com/laurobles03" target="_blank"><i href="../../../public/Iconos/instagram.svg"></i></a>
-                <a href="https://www.github.com/lautirobles" target="_blank"><i className="bi bi-github"></i></a>
-                <a href="https://www.x.com/lautarorobless" target="_blank"><i className="bi bi-twitter"></i></a>
+                <a href="https://www.instagram.com/laurobles03" target="_blank"><Icon.Instagram></Icon.Instagram></a>
+                <a href="https://www.github.com/lautirobles" target="_blank"><Icon.Github></Icon.Github></a>
+                <a href="https://www.x.com/lautarorobless" target="_blank"><Icon.Twitter></Icon.Twitter></a>
             </div>
             <div className="cont-enlaces">
                 <a href="#inicio"><h2>Inicio</h2></a>
@@ -27,18 +27,20 @@ const Footer = () =>{
             <div className="cont-contacto">
                 <h2>Info de contacto</h2>
                 <div className="numero">
-                    <i className="bi bi-telephone"></i>
+                    <Icon.Telephone></Icon.Telephone>
                     <p>+54 111 1111111</p>
                 </div>
                 <div className="ubi">
-                    <i className="bi bi-geo-alt"></i>
+                    <Icon.GeoAlt></Icon.GeoAlt>
                     <p>Córdoba, Argentina</p>
                 </div>
                 <div className="mail">
-                    <i className="bi bi-envelope"></i>
+                    <Icon.Envelope></Icon.Envelope>
                     <p>latirobles@gmail.com</p>
                 </div>
             </div>
         </footer>
     )
 }
+
+export default Footer

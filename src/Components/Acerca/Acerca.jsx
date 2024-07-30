@@ -1,4 +1,4 @@
-
+import * as Icon from 'react-bootstrap-icons'
 
 const Acerca = () =>{
 
@@ -18,7 +18,7 @@ const Acerca = () =>{
                         Te dejo mi CV para descargar por si gustas.<br/>Muchas gracias por tu  atención y espero que nos comuniquemos pronto!
                         </p>
                         
-                        <a href=""><i className="bi bi-download"></i> Descargar CV</a>
+                        <a href=""><Icon.Download/> Descargar CV</a>
                     </div>
                 </div>
             </div>

@@ -447,13 +447,10 @@ main{
     color: var(--font-color);
 }
 
-.contacto form{
+form{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-form{
     width: 100%;
 }
 
@@ -464,6 +461,17 @@ form input, form textarea{
     border-radius: 5px;
     border: 1px solid var(--font-color);
     padding: 10px;
+}
+
+form select{
+    width: 42%;
+    height: 8.5vh;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--font-color);
+    padding: 10px;
+    color: var(--font-color);
+
 }
 
 .detail-project{
@@ -529,6 +537,10 @@ footer a{
     color: var(--font-color);
     transition: .5s border;
     border: 1px solid #7a35c4;
+}
+
+.cont-logo a iframe{
+    text-align: center;
 }
 
 .cont-logo a:hover{
