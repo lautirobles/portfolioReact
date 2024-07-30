@@ -156,8 +156,8 @@ main{
     justify-content: center;
     text-align: center;
     width: 85vw;
-    padding: .5em;
-    margin: 10em 7em 0;
+    /* padding: .5em; */
+    margin: 10em 0 7em;
 }
 
 .servicios h2{
