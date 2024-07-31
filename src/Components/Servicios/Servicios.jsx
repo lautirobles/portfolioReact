@@ -30,6 +30,7 @@ const Servicios = () =>{
             as='div'
             width='100%'
             justifyContent='space-between'
+            flexDirection={{base:'column', md:'row'}}
             >
                 <Box 
                 as='div'

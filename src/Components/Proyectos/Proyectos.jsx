@@ -9,15 +9,8 @@ const Proyectos = () =>{
     let [flag2, setFlag2] = useState(false)
     let [flag3, setFlag3] = useState(false)
 
-    const caracteristicas = ['Todo', 'Landing Page', 'Seccion', 'Python']
+    // const caracteristicas = ['Todo', 'Landing Page', 'Seccion', 'Python']
 
-
-    const filtroCaract = (caract)=>{
-        if(caract=='Landing Page'){
-            console.log('hola')
-        }
-        
-    }
 
     return(
         <Flex as='section' 
@@ -68,6 +61,9 @@ const Proyectos = () =>{
             <Flex as='div'
             width='100%'
             justifyContent='space-between'
+            flexWrap='wrap'
+            height='30em'
+            flexDirection={{base:'column', md:'row'}}
             >
                 <Box 
                 m='10px'

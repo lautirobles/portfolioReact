@@ -7,6 +7,7 @@ const Footer = () =>{
         <Flex as='footer' w='100%'
         justifyContent='center'
         alignItems='center'
+        flexDirection={{base:'column', md:'row'}}
         bgColor={'#5d17bf'}
         color='#ACA4B4'
         >
@@ -56,7 +57,8 @@ const Footer = () =>{
             </Flex>
             <Flex as='div' flex='1' m='3em'
             flexWrap='wrap' justifyContent='center'
-            alignItems='center'>
+            alignItems='center'         
+            flexDirection={{base:'column', md:'row'}}>
                 <Text as='h2' width='100%' color='#fcfcfc' fontSize='1.5em'>Info de contacto</Text>
                 <Box display='flex' mt='1em' alignItems='center'>
                     <Icon.Telephone></Icon.Telephone>

@@ -57,6 +57,7 @@ const Acerca = () =>{
                     <Image 
                     src="../../../foto-hero.png"
                     m='0 1em'
+                    display={{base:'none', xl:'inline-block'}}
                     />
                     <Flex 
                     as='div'
@@ -68,7 +69,7 @@ const Acerca = () =>{
                         <Text
                         as='p'
                         width='100%'
-                        fontSize='1.2em'
+                        fontSize={{base:'12px', md:'18px'}}
                         color='#ACA4B4'
                         >Mi nombre es Lautaro Robles, tengo 20 años y soy de Córdoba, Argentina.<br/> 
                         Soy Técnico Electrónico, actualmente estudio Ingeniería en Sistemas de Información en la Universidad Tecnológica Nacional, lugar donde estoy realizando también una diplomatura en desarrollo de software 
@@ -101,6 +102,7 @@ const Acerca = () =>{
             > 
                 {habilidades.map((habilidad, i)=>(
                     <Flex as='div'
+                    display={{base:'none', xl:'flex'}}
                     key={habilidad}
                     flex='1'
                     flexWrap='wrap'

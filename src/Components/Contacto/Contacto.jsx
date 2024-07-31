@@ -106,7 +106,7 @@ const Contacto = ()=>{
                     </Flex>
                     <Flex as='div'
                     width='100%'
-                    height='4em'>
+                    height={{base:'8em', sm:'6em', md:'4em'}}>
                     <Box
                     m='.5em 5% 1em'
                     width='40%'
@@ -142,7 +142,7 @@ const Contacto = ()=>{
                     </Select>
                     <Flex as='div'
                     width='100%'
-                    height='4em'>
+                    height={{base:'8em', sm:'6em', md:'4em'}}>
                     <Box
                     m='.5em 5% 1em'
                     width='40%'
@@ -175,7 +175,7 @@ const Contacto = ()=>{
                     {/* ERRORES TIEMPO Y DETALLES */}
                     <Flex as='div'
                     width='100%'
-                    height='4em'>
+                    height={{base:'8em', sm:'6em', md:'4em'}}>
                     <Box
                     m='.5em 5% 1em'
                     width='40%'
