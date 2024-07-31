@@ -42,6 +42,7 @@ const Header = () =>{
                     pb='.5em'
                     transition='borderBottom .3s, color .3s'
                     borderBottom='2px solid #5d17bf'
+                    scrollBehavior='smooth'
                     _hover={{
                         borderBottom: '2px solid #fcfcfc',
                         color: '#fcfcfc'
