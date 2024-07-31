@@ -25,7 +25,7 @@ const Header = () =>{
         borderRadius='20px'
         >
             <Image 
-            src="../../../public/logo2.png"
+            src="../../../logo2.png"
             boxSize='50px'
             />
             <Flex 

@@ -82,7 +82,7 @@ const Hero = () =>{
                 ><Icon.Twitter/></Box>
             </Flex>
             <Image 
-            src="../../../public/foto-hero.png"
+            src="../../../foto-hero.png"
             m='1em 0 0 0'
             filter='drop-shadow(0 0 .75rem #fcfcfc)'
             />      

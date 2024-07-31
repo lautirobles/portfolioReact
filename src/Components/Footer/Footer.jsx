@@ -11,7 +11,7 @@ const Footer = () =>{
         color='#ACA4B4'
         >
             <Box as='div' flex='2' m='3em'>
-                <Image src="../../../public/logo2.png" w='2.5em' />
+                <Image src="../../../logo2.png" w='2.5em' />
                 <Text as='p' m='2em 0'>Aquí te dejo nuevamente mis redes para que puedas acceder y contactarme!</Text>
                 <Box as='a'
                 href="https://www.instagram.com/laurobles03" 

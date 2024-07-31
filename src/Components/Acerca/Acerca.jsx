@@ -55,7 +55,7 @@ const Acerca = () =>{
                 justifyContent='space-between'
                 >
                     <Image 
-                    src="../../../public/foto-hero.png"
+                    src="../../../foto-hero.png"
                     m='0 1em'
                     />
                     <Flex 
@@ -78,7 +78,7 @@ const Acerca = () =>{
                         </Text>
                         
                         <Button as='a'
-                        href="../../../public/My Student CV.pdf" download
+                        href="../../../My Student CV.pdf" download
                         bgColor='#5d17bf'
                         color='#fcfcfc'
                         p='20px 20px'
