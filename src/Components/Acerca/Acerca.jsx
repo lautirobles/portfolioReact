@@ -78,9 +78,9 @@ const Acerca = () =>{
                         </Text>
                         
                         <Button as='a'
-                        href=""
+                        href="../../../public/My Student CV.pdf" download
                         bgColor='#5d17bf'
-                        color='#ACA4B4'
+                        color='#fcfcfc'
                         p='20px 20px'
                         mt='1em'
                         transition='.5s border'

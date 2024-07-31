@@ -1,6 +1,6 @@
 import { Formik } from 'formik'
 import * as Yup from 'yup'
-import { Flex, Input, Text, Select, Textarea, Button, Box, Alert, AlertIcon, AlertDescription, AlertTitle} from '@chakra-ui/react'
+import { Flex, Input, Text, Select, Textarea, Button, Box, Alert, AlertIcon} from '@chakra-ui/react'
 
 
 const Contacto = ()=>{
@@ -41,24 +41,8 @@ const Contacto = ()=>{
             .required('Este dato es requerido')
         })}
 
-        onSubmit ={()=>{
-            <Alert
-            status='success'
-            variant='subtle'
-            flexDirection='column'
-            alignItems='center'
-            justifyContent='center'
-            textAlign='center'
-            height='200px'
-            >
-            <AlertIcon boxSize='40px' mr={0} />
-            <AlertTitle mt={4} mb={1} fontSize='lg'>
-                Application submitted!
-            </AlertTitle>
-            <AlertDescription maxWidth='sm'>
-                Thanks for submitting your application. Our team will get back to you soon.
-            </AlertDescription>
-            </Alert>
+        onSubmit ={(values)=>{
+            console.log(values)
         }}
         >
 

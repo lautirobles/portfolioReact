@@ -16,7 +16,7 @@ const Hero = () =>{
         justifyContent='center'
         // flexDirection='column'
         alignItems='center'
-        bg= 'linear-gradient(to bottom, rgb(93 23 191/1), rgb(93 23 191/.7)),url("../../../texto-fondo2.png")'
+        bg= 'linear-gradient(to bottom, rgb(93 23 191/1), rgb(93 23 191/.7)),url("../../../public/texto-fondo2.png")'
         backgroundPosition='center'
         backgroundRepeat='no-repeat'
         >
