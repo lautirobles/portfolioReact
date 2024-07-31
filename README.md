@@ -1,6 +1,6 @@
 # Proyecto de Portfolio Personal con React
 
-En este nuevo proyecto, se realiza una Landing Page con tematica de Portfolio Personal a traves de la utilización de React, como parte de los estudios para la diplomatura de desarrollo full-stack llevada a cabo en la Universidad Tecnológica Nacional, a cargo del profesor Jose Luis Condori
+En este nuevo proyecto, se realiza una Landing Page con tematica de Portfolio Personal a traves de la utilización de React, como parte de los estudios para la diplomatura de desarrollo full-stack llevada a cabo en la Universidad Tecnológica Nacional, a cargo del profesor Jose Luis Condori. Para realizar este trabajo me base en el siguiente modelo: https://www.behance.net/gallery/197766765/Portfolio-Landing-page?tracking_source=search_projects%7Cportfolio+page&l=155
 
 # Tecnologias Utilizadas
 El motor que permite la realización de este proyecto es, como se nombró anteriormente, React. Sin embargo existen otras tecnologias que fueron utilizadas para lograrlo, entre ellas:
