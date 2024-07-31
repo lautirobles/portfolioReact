@@ -101,6 +101,7 @@ const Acerca = () =>{
             > 
                 {habilidades.map((habilidad, i)=>(
                     <Flex as='div'
+                    key={habilidad}
                     flex='1'
                     flexWrap='wrap'
                     justifyContent='center'
