@@ -12,7 +12,10 @@ const Proyectos = () =>{
     const caracteristicas = ['Todo', 'Landing Page', 'Seccion', 'Python']
 
 
-    const filtroCaract = ()=>{
+    const filtroCaract = (caract)=>{
+        if(caract=='Landing Page'){
+            console.log('hola')
+        }
         
     }
 
@@ -45,22 +48,21 @@ const Proyectos = () =>{
             justifyContent='center'
             >
                 {/* BOTONES QUE FILTRAN POR CARACTERISTICAS LOS PROYECTOS */}
-                {caracteristicas.map((caract)=>(
-                    <Button 
+                {/* {caracteristicas.map((caract)=>(
+                    <Button
                     key={caract} as='a' 
-                    href="" 
                     p='.5em'
                     m='1em'
                     bgColor='#f2f2f2'
                     color='#ACA4B4'
                     transition='.5s background-color, .5s color'
+                    cursor='pointer'
                     _hover={{
                         color: '#fcfcfc',
                         bgColor: '#5d17bf'
                     }}
-                    onClick={filtroCaract(caract)}
                     >{caract}</Button>
-                ))}
+                ))} */}
                 
             </Flex>
             <Flex as='div'
@@ -71,7 +73,7 @@ const Proyectos = () =>{
                 m='10px'
                 borderRadius='10px'
                 flex='1'
-                height='50vh'
+                height='20em'
                 backgroundImage= 'url("../../../../../proyec-1.png")'
                 backgroundRepeat='no-repeat'
                 backgroundPosition='center'
@@ -102,7 +104,8 @@ const Proyectos = () =>{
                         }}
                         ><CopyToClipboard text={'https://www.github.com/lautirobles/portfolio-personal'}><Icon.Copy/></CopyToClipboard></Box>
                         <Box as='a'
-                        href=''
+                        target='_BLANK'
+                        href='https://www.github.com/lautirobles/portfolio-personal'
                         p='10px'
                         m='.5em'
                         bgColor='#7a35c4'
@@ -121,7 +124,7 @@ const Proyectos = () =>{
                 m='10px'
                 borderRadius='10px'
                 flex='1'
-                height='50vh'
+                height='20em'
                 backgroundImage= 'url("../../../../../proyec-2.png")'
                 backgroundRepeat='no-repeat'
                 backgroundPosition='center'
@@ -152,7 +155,8 @@ const Proyectos = () =>{
                         }}
                         ><CopyToClipboard text={'https://github.com/lautirobles/image-based-web-project-1'}><Icon.Copy/></CopyToClipboard></Box>
                         <Box as='a'
-                        href=''
+                        href='https://github.com/lautirobles/image-based-web-project-1'
+                        target='_BLANK'
                         p='10px'
                         m='.5em'
                         bgColor='#7a35c4'
@@ -171,7 +175,7 @@ const Proyectos = () =>{
                 m='10px'
                 borderRadius='10px'
                 flex='1'
-                height='50vh'
+                height='20em'
                 backgroundImage= 'url("../../../../../proyec-3.png")'
                 backgroundRepeat='no-repeat'
                 backgroundPosition='center'
@@ -202,7 +206,8 @@ const Proyectos = () =>{
                         }}
                         ><CopyToClipboard text={'https://github.com/lautirobles/image-based-web-project-2'}><Icon.Copy/></CopyToClipboard></Box>
                         <Box as='a'
-                        href=''
+                        href='https://github.com/lautirobles/image-based-web-project-2'
+                        target='_BLANK'
                         p='10px'
                         m='.5em'
                         bgColor='#7a35c4'
@@ -217,7 +222,7 @@ const Proyectos = () =>{
                         </Flex>
                     }</Box>
             </Flex>
-            <Button as='a'
+            {/* <Button as='a'
             p='.5em 1em'
             m='1em'
             bgColor='#f2f2f2'
@@ -227,7 +232,7 @@ const Proyectos = () =>{
                 color: '#fcfcfc',
                 bgColor: '#5d17bf'
             }}
-            >Mostrar Mas <Icon.ArrowRight /></Button>
+            >Mostrar Mas <Icon.ArrowRight /></Button> */}
         </Flex>
     )
 }
